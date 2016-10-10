@@ -6,6 +6,7 @@
 	$DB_PORT = '5432';
 
 	/* General Settings */
+	$can_register = true; // New users can sign up?
 
 	/* Security */
 	$SALT_LENGTH = 64;

@@ -11,5 +11,11 @@
 		<?php
 			echo salt_gen(64);
 		?>
+		<h1>
+			Token_Gen
+		</h1>
+		<?php
+			echo token_gen(32);
+		?>
 	</body>
 </html>
