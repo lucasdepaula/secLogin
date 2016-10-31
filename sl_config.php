@@ -1,10 +1,10 @@
 <?php
 	/* Database Access */
 	$DB_HOST = 'localhost';
-	$DB_USER = 'user';
-	$DB_PASS = 'pass';
+	$DB_USER = 'bigoil';
+	$DB_PASS = 'bigoil2016';
 	$DB_PORT = '5432';
-
+	$DB_NAME = 'db_bigoil';
 	/* General Settings */
 	$can_register = true; // New users can sign up?
 

@@ -17,5 +17,16 @@
 		<?php
 			echo token_gen(32);
 		?>
+		<h1>PHP Info</h1>
+		<?php
+			echo phpinfo();
+		?>
+		<h1>
+			Password Gen
+		</h1>
+		<?php
+			echo password_hash('ashuashudasuda', PASSWORD_DEFAULT);
+		?>
+
 	</body>
 </html>
